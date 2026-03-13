@@ -1,4 +1,3 @@
-
 *{
 margin:0;
 padding:0;
@@ -21,7 +20,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 60px;
-background:white;
+background-color: #ffffff;
 border-bottom:2px solid #eee;
 position:fixed;
 width:100%;
@@ -31,14 +30,14 @@ top:0;
 
 .menu h1{
 
-color:#ff6b00;
+color:#ff6a00;
 
 }
 
 
 .menu nav a{
 
-color:#333;
+color:#eca26e;
 margin-left:25px;
 text-decoration:none;
 font-weight:500;
@@ -61,7 +60,9 @@ align-items:center;
 justify-content:center;
 text-align:center;
 padding:20px;
-background:#fff7f0;
+background-image: url('imagem css/lei.jpg');
+background-size: cover;
+background-position: initial;
 
 }
 
@@ -80,6 +81,7 @@ margin-bottom:20px;
 max-width:600px;
 margin:auto;
 margin-bottom:30px;
+color: white;
 
 }
 
