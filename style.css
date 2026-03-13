@@ -1,0 +1,249 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+body{
+
+font-family:"Poppins", sans-serif;
+background:white;
+color:#333;
+
+}
+
+
+.menu{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+border-bottom:2px solid #eee;
+position:fixed;
+width:100%;
+top:0;
+
+}
+
+.menu h1{
+
+color:#ff6b00;
+
+}
+
+
+.menu nav a{
+
+color:#333;
+margin-left:25px;
+text-decoration:none;
+font-weight:500;
+
+}
+
+
+.menu nav a:hover{
+
+color:#ff6b00;
+
+}
+
+
+.hero {
+
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+background:#fff7f0;
+
+}
+
+
+.hero-text h2{
+
+font-size:42px;
+color:#ff6b00;
+margin-bottom:20px;
+
+}
+
+
+.hero-text p{
+
+max-width:600px;
+margin:auto;
+margin-bottom:30px;
+
+}
+
+
+.botao-principal{
+
+background:#ff6b00;
+padding:14px 25px;
+border-radius:6px;
+color:white;
+text-decoration:none;
+font-weight:600;
+width: 200px;   
+}
+
+
+.botao-principal:hover{
+
+background:#e55d00;
+
+}
+
+
+.conteudo{
+text-align: center;
+padding:100px 20px;
+max-width:1000px;
+margin:auto;
+align-items: center;
+justify-content:center;
+display: grid;
+
+}
+
+
+.conteudo h2{
+
+text-align:center;
+margin-bottom:40px;
+color:#ff6b00;
+
+}
+
+
+.cards{
+
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+
+}
+
+.card{
+
+background:white;
+padding:25px;
+border-radius:10px;
+width:280px;
+box-shadow:0 10px 25px rgba(0,0,0,0.20);
+transition:0.3s;
+
+}
+
+
+.card:hover{
+
+transform:translateY(-8px);
+
+}
+
+
+form{
+
+display:flex;
+flex-direction:column;
+max-width:900px;
+width:100%;
+margin: auto;
+
+}
+
+input, textarea{
+
+width:100%;
+margin-bottom:15px;
+padding:12px;
+border-radius:6px;
+border:1px solid #ddd;
+
+}
+
+.checkbox-container{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:15px;
+  font-weight:500;
+}
+
+.checkbox-container input[type="checkbox"]{
+  width:18px;
+  height:18px;
+}
+
+button{
+
+background:#ff6b00;
+color:white;
+padding:14px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+
+}
+
+
+button:hover{
+
+background:#e55d00;
+
+}
+
+
+.contador{
+
+text-align:center;
+margin-bottom:20px;
+font-weight:bold;
+color:#ff6b00;
+
+}
+
+
+#mensagem{
+
+text-align:center;
+margin-top:15px;
+font-weight:bold;
+
+}
+
+
+footer{
+
+background:#fff7f0;
+color:#333;
+text-align:center;
+padding:20px;
+margin-top:40px;
+
+}
+
+.btn-apresentacao{
+
+background:#ff6b00;
+padding:14px 25px;
+border-radius:6px;
+color:white;
+text-decoration:none;
+font-weight:600;
+
+display:block;
+width:220px;
+margin:30px auto;
+
+}
